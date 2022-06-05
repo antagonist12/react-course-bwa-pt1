@@ -12,7 +12,7 @@ export default function Homepage(props) {
   return (
     //   ini fragment ( di browser tidak akan menulis markup )
     <>
-      <Header />
+      <Header theme="white" position="absolute" />
       <Hero />
       <Browseroom />
       <Justarrived />
