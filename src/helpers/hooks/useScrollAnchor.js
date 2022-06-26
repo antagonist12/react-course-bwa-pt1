@@ -6,7 +6,7 @@ export default function useScrollAnchor() {
 
     for (let anchor = 0; anchor < smoothScrollAnchor.length; anchor++) {
       const element = smoothScrollAnchor[anchor];
-      console.log(element);
+      // console.log(element);
       element.addEventListener("click", function (e) {
         e.preventDefault();
         if (document.getElementById(this.getAttribute("href").replace("#", "")))
